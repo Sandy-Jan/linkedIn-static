@@ -1,0 +1,487 @@
+/* Resetting default margin, padding, and box-sizing for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body element */
+body{
+    background-color: rgb(192, 192, 192);
+    padding: 5px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling for the header section */
+.header{
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+/* Styling for the left icons in the header */
+.header-left-icon{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+/* Styling for the search input in the header */
+.header-left-icon> input{
+    border-radius: 10px;
+    margin-left: 5px;
+    height: 45px;
+    width: 200px;
+    background-color: #E3E3E2;
+}
+
+/* Styling for the right icons in the header */
+.header-right-icon{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.header-right-icon>img{
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+#sandip{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+/* Styling for the premium subscription information */
+.premium{
+   
+   margin: 10px;
+   text-transform: capitalize;
+   justify-content: space-around;
+   font-weight: 700;
+   font-size: small;
+   color: #3C3D3D;
+}
+
+/* Styling for the main body content */
+.body{
+    display: flex;
+    flex-direction: row;
+    background-color: #E3E3E2;
+    height: auto;
+    
+}
+
+/* Styling for the left content in the body */
+.body-left-content{
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px;
+    width: 450px;
+    height: auto;
+    border: 0.1px solid black;
+}
+
+/* Styling for the user profile and connections section */
+.about{
+    color: #454445;
+    padding: 0px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgb(102, 102, 102), rgb(247, 247, 243));
+    border-radius: 10px;
+}
+
+/* Styling for the user profile image */
+.about> img{
+    margin: 30px;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/* Styling for the connections information */
+.connections>p{
+    color: #454445;
+    font-size: small;
+    
+}
+
+/* Styling for the number of connections */
+.connections>span{
+    float: right;
+    font-size: smaller;
+    color: rgb(77, 77, 255);
+    font-weight: 900;
+}
+
+/* Styling for the "My items" section */
+.myitems{
+    color: #454445;
+    display: flex;
+    padding: 5px;
+    
+}
+
+/* Styling for the icons in the "My items" section */
+.myitems> img{
+    width: 25px;
+    height: 25px;
+    
+}
+
+/* Styling for the recent activity section */
+.recent{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+/* Styling for the icons in the recent activity section */
+.recent>img{
+    width: 20px;
+    height: 20px;
+}
+
+/* Styling for the navigation links */
+a{
+    margin: 5px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+/* Styling for the post content section */
+.post{
+    background-color: #E3E3E2;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Styling for the user profile image in the post section */
+.body-center-content{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+/* Styling for the user profile image in the post section */
+.pic> img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Styling for the center content */
+.center{
+   
+    background-color: #E3E3E2;
+    margin: 5px 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Styling for the top section in the center content */
+.center > .center-top{
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #E3E3E2;
+    margin-bottom: 5px;
+    background-color: #fff;
+   
+}
+.center > .center-top> .post{
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+/* Styling for the user post image in the center content */
+.center > .center-top> .post>img{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   border: 1px solid #E3E3E2;
+   margin-left: 10px;
+}
+
+/* Styling for the post input in the center content */
+.center > .center-top>.post>input{
+    background-color: #E3E3E2;
+    border-radius: 25px;
+    width: 750px;
+    margin-left: 12px;
+}
+
+/* Styling for the media icons in the center content */
+.center > .center-top>.media{
+    margin: 05px;
+    align-items: stretch;
+   
+}
+
+/* Styling for the bottom section in the center content */
+.center > .center-top>.media>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 180px;
+}
+
+/* Styling for the bottom section in the center content */
+.center-bottom{
+    background-color: #fff;
+    border-radius: 10px;
+ 
+}
+
+/* Styling for the first story in the center-bottom section */
+.center-bottom>.story1{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;   
+}
+
+/* Styling for the user image in the first story */
+.center-bottom>.story1>img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+/* Styling for the text container in the first story */
+.center-bottom>.story1>.textcontainer>p{
+    margin-left: 5px;
+    text-transform: capitalize; 
+    font-weight: bold; 
+}
+
+/* Styling for the span in the text container of the first story */
+.center-bottom>.story1>.textcontainer>p>span{
+    color: #454445;
+    font-size: small;
+    margin-left: 2px;
+}
+
+/* Styling for the image in the lower text container of the first story */
+.story1-textcontainer-lower>img{
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+}
+
+/* Styling for the lower text container of the first story */
+.story1-textcontainer-lower{
+    margin: 10px 10px;   
+}
+
+/* Styling for the reaction container of the first story */
+.reactions{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Styling for the likes and comments container of the first story */
+.reactions>img{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Styling for the details of likes and comments container of the first story */
+.reactions>p{
+    font-size: smaller;
+    font-weight: bold;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+/* Styling for the input of likes and comments container of the first story */
+.likes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #696666;
+}
+
+/* Styling for the images of likes and comments container of the first story */
+.likes>div>img{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+/* Styling for the input of share container of the first story */
+.likes>.share{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Styling for the second story in the center-bottom section */
+.story2{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Styling for the upper section of the second story */
+.story2-upper{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Styling for the user image in the second story */
+.story2-upper>img{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+}
+
+/* Styling for the container of the user name and description in the second story */
+.story2-upper>.sandip-story{
+    margin-left: 10px;
+}
+.story2-upper>.sandip-story>p{
+    color: #454445;
+    font-size: small;
+    font-weight: bold;
+}
+
+/* Styling for the image container in the second story */
+.story2>.sandip-image>img{
+    padding: 5px;
+    width: 800px;
+    height: 300px;
+    
+}
+
+/* Styling for the reaction container of the second story */
+.reactions2{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Styling for the likes and comments container of the second story */
+.reactions2>img{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+/* Styling for the details of likes and comments container of the second story */
+.reactions2>p{
+    font-size: smaller;
+    font-weight: bold;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+/* Styling for the input of likes and comments container of the second story */
+.likes2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #696666;
+}
+
+/* Styling for the images of likes and comments container of the second story */
+.likes2>div>img{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+/* Styling for the input of share container of the second story */
+.likes2>.share2{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+/* Styling for the right content in the body */
+.body-right-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    
+   
+}
+
+/* Styling for the upper section in the right content */
+.body-right-content-upper {
+     width: 250px; 
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.body-right-content-upper>.linkedin-news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Styling for the images in the right content upper section */
+.body-right-content-upper>.linkedin-news>img{
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}   
+
+/* Styling for the link in the right content upper section */
+.body-right-content-upper>a{
+    color: #696666;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+  
+}
+
+/* Styling for the images in the link of the right content upper section */
+.body-right-content-upper>a>img{
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+/* Styling for the paragraph in the right content upper section */
+.body-right-content-upper>p{
+    margin-left: 5px;
+    overflow-y: scroll;
+}
+
+/* Styling for the lower section in the right content */
+.body-right-content-lower{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+/* Styling for the links in the right content lower section */
+.body-right-content-lower>a{
+    color: #696666;
+    font-weight: 100;
+    font-size: small;
+    margin: 5px;
+    padding: 1px;
+}
+a:hover{
+    opacity: 0.6;
+    color: lightblue;
+}
+
